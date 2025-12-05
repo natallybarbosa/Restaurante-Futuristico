@@ -15,7 +15,7 @@ Restaurante::Restaurante(int nChefes, int nMesas) {
         "Aylla","Nadylla","Sakura","Brino","Ghibi"
     };
     // garante que não ultrapassa o número de nomes definidos
-    int maxNomes = static_cast<int>(sizeof(nomes)/sizeof(nomes[0]));
+    int maxNomes = static_cast<int>(sizeof(nomes)/sizeof(nomes[0]));// 
     int total = std::min(nChefes, maxNomes);
 
     // reserva espaço para os chefs
